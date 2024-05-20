@@ -13,8 +13,9 @@ namespace Barbearia.DAO
             SqlParameter[] parametros =
             {
                 new SqlParameter("@Id", reserva.Id),
-                new SqlParameter("@Data", reserva.Data),
-                // Adicione outros parâmetros conforme necessário para a reserva
+                new SqlParameter("@Horario", reserva.Horario),
+                new SqlParameter("@BarbeiroId", reserva.BarbeiroId),
+                new SqlParameter("@ClienteId", reserva.ClienteId)
             };
             return parametros;
         }
@@ -53,10 +54,14 @@ namespace Barbearia.DAO
             return new ReservaViewModel()
             {
                 Id = Convert.ToInt32(registro["Id"]),
-                Data = Convert.ToDateTime(registro["Data"]),
-                // Adicione outros campos conforme necessário para a reserva
+                Horario = Convert.ToDateTime(registro["Horario"]),
+                BarbeiroId = Convert.ToInt32(registro["BarbeiroId"]),
+                Barbeiro = registro["Barbeiro"].ToString(),
+                ClienteId = Convert.ToInt32(registro["ClienteId"]),
+                Cliente = registro["Cliente"].ToString()
             };
         }
+
 
         public ReservaViewModel Consulta(int id)
         {
