@@ -32,11 +32,11 @@ namespace ProjetoBarbearia.Controllers
             {
                 if (usuario.IsAdmin)
                 {
-                    return RedirectToAction("Index", "ListarReservas");
+                    return RedirectToAction("Index", "Reserva");
                 }
                 else
                 {
-                    return RedirectToAction("Index", "RegistrarReserva");
+                    return RedirectToAction("Index", "Reserva");
                 }
             }
             else
