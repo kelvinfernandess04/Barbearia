@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0PuofLMOA25YekVnURAsoadt6pDuc7TS7cSeRsPRtK4Vq3G/typacqPBiR6WiuXXSTJRXy5utsqNuFc8UK/IRA==",
+  "dgSpecHash": "2FR3S6x0JC9sKJz0JO/Yz9eIgL6qIzJ6etPJnDBwBUigUp/pG4n2GNCMJps6yv5tUirQn1Fjh8+StIQY0bEeqA==",
   "success": true,
-  "projectFilePath": "/home/kelvin/Downloads/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
+  "projectFilePath": "/home/kelvin/Barbearia/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
   "expectedPackageFiles": [
     "/home/kelvin/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/home/kelvin/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

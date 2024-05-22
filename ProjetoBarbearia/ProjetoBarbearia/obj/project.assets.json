@@ -1890,11 +1890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kelvin/Downloads/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
+      "projectUniqueName": "/home/kelvin/Barbearia/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
       "projectName": "ProjetoBarbearia",
-      "projectPath": "/home/kelvin/Downloads/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
+      "projectPath": "/home/kelvin/Barbearia/ProjetoBarbearia/ProjetoBarbearia/ProjetoBarbearia.csproj",
       "packagesPath": "/home/kelvin/.nuget/packages/",
-      "outputPath": "/home/kelvin/Downloads/ProjetoBarbearia/ProjetoBarbearia/obj/",
+      "outputPath": "/home/kelvin/Barbearia/ProjetoBarbearia/ProjetoBarbearia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kelvin/.nuget/NuGet/NuGet.Config"
