@@ -1,0 +1,19 @@
+﻿@model List<BarbeiroViewModel>
+
+@* Conteúdo da página de registro de reserva *@
+<h2>Registrar Reserva</h2>
+<form method="post" action="@Url.Action("RegistrarReserva", "Usuario")">
+    <label for="dataHora">Data e Hora da Reserva:</label>
+    <input type="datetime-local" id="dataHora" name="dataHora" required>
+    <br>
+    <label for="barbeiro">Selecione o Barbeiro:</label>
+    <select id="barbeiro" name="barbeiro" required>
+        <option value="">Selecione um barbeiro</option>
+        @foreach (var barbeiro in Model)
+        {
+            <option value="@barbeiro.BarbeiroId">@barbeiro.NomeBarbeiro</option>
+        }
+    </select>
+    <br>
+    <button type="submit">Registrar Reserva</button>
+</form>

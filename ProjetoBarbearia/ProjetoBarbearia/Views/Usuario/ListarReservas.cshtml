@@ -1,0 +1,25 @@
+﻿@model List<ReservaViewModel>
+
+<h2>Lista de Reservas</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Usuário</th>
+            <th>Email</th>
+            <th>Barbeiro</th>
+            <th>Data e Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reserva in Model)
+        {
+            <tr>
+                <td>@reserva.Usuario.NomeUsuario</td>
+                <td>@reserva.Usuario.Email</td>
+                <td>@reserva.Barbeiro.NomeBarbeiro</td>
+                <td>@reserva.DataHora.ToString("g")</td>
+            </tr>
+        }
+    </tbody>
+</table>
